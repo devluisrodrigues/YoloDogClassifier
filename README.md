@@ -6,6 +6,8 @@ O Projeto foidesenvolvido para estudo individual, com o objetivo de classificar 
 
 O dataset utilizado foi o Stanford Dogs Dataset, que contém 20.580 imagens de 120 raças de cachorros. O qual pode ser encontrado no link: https://www.kaggle.com/jessicali9530/stanford-dogs-dataset
 
+---
+
 ## Pré-requisitos
 
 Crie um ambiente virtual e instale as dependências do projeto:
@@ -25,6 +27,8 @@ Esse recorte do dataset pode ser encontrado dentro da pasta "dataset". Ele foi d
 ```
 dataset
 │
+└─── data.yaml
+|
 └───train
 │   └───images
 │   │   │   n02085620_7.jpg
@@ -61,6 +65,8 @@ As raças de cachorros escolhidas para o treinamento do modelo foram:
 9. Great Dane
 10. Pug
 
+---
+
 ### Treinando o modelo
 
 Para treinar o modelo, basta executar o notebook `training.ipynb`. O modelo será treinado com as 10 raças de cachorros presentes no dataset.
@@ -77,6 +83,8 @@ O notebook foi dividido em 2 partes:
     A partir desse modelo, foi feito o fine-tuning com as imagens do dataset.
 
     Um modelo pré-treinado "zerado", sem fine-tuning, foi disponibilizado dentro da pasta training, para que seja possível realizar o treinamento sem a necessidade de baixar um modelo pré-treinado do site da Ultralytics.
+
+---
 
 ### Testando o modelo
 
