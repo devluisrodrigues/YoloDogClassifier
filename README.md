@@ -27,7 +27,7 @@ Esse recorte do dataset pode ser encontrado dentro da pasta "dataset". Ele foi d
 ```
 dataset
 │
-└─── data.yaml
+|   data.yaml
 |
 └───train
 │   └───images
